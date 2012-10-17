@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="6746kagaminator.MagicLines" Publisher="CN=F7E6EC8D-875B-48D8-9888-4061712D2F89" Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>Magic Lines</DisplayName>
+    <PublisherDisplayName>kagaminator</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="Lines.App">
+      <VisualElements DisplayName="Magic Lines" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="Memoriam" ForegroundText="light" BackgroundColor="#F5F5F5">
+        <DefaultTile ShowName="allLogos" />
+        <SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#1C2649" />
+      </VisualElements>
+    </Application>
+  </Applications>
+</Package>
